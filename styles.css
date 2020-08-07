@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+/*
+--------------------------------
+        NavBar
+--------------------------------
+*/
+.nav-container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-list {
+  
+}
+.phone {    
+    float: left;
+    margin: 10px;
+    font-size: 1rem;
+}
+.icon-phone {
+    width: 20px;
+    margin: 12px;
+}
+.email {
+    float: right;
+    margin: 10px;
+    font-size: 1rem;
+}
+.icon-email {
+    width: 20px;
+    margin: 12px;
+}
+
+/*
+--------------------------------
+        Jumbo Search
+--------------------------------
+*/
+.container-search {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-inline {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+}
+
+.price-box {
+    margin: auto;
+}
+
+.bed-bath-box {
+    margin: auto;
+}
+
+.property-type-box {
+    margin: auto;
+}
+
+.jumbotron{
+    background-image: url('images/familyOneEdit.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    opacity:0.6;
+}
+
+
+/*
+-------------------------------------
+        List of Areas & Cities
+-------------------------------------
+*/
+.areas-cities-container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.areas-cities-title {
+    font-size: 3rem;
+}
+.box-one {
+    width: 460px;
+    float: left;
+    margin-bottom: 50px;
+
+}
+.box-two {
+    width: 460px;
+    float: right;
+    margin-bottom: 50px;
+}
+
+.cities {
+    float:left;
+}
+.cities-badge {
+    float: right;
+}
+/*
+-------------------------------------------------
+            Feature House Render Here
+-------------------------------------------------
+*/
+.feature-house-container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;    
+}
+.feature-house-title {
+    font-size: 3rem;
+}
+.card-deck {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card {
+    box-shadow: 5px 10px 8px 10px #f7f7f7;
+}

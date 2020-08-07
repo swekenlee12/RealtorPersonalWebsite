@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Agent | Kenny</title>
+  </head>
+  <body>
+    <!--
+        --------------------------
+            NavBar
+        --------------------------
+    -->
+        <div class="nav-container">
+        <nav class="navbar">
+            <span class="navbar-brand mb-0 h1">Agent | Kenny</span>
+        </nav>
+        <nav class="navbar">
+            <div class="contact-list"> <!--   Insert a mobile phone and Email svg  -->
+            <span class="navbar-band phone float-rigth" id="phone"><img src="images/phone-fill.svg" class="icon-phone">Phone: (111)222-3333</span>
+            <span class="navbar-band email float-right" id="email"><img src="images/envelope-fill.svg" class="icon-email">Email: agentkenny@email.com</span>
+            </div>
+        </nav>
+        </div>
+
+    <!--
+        -----------------------------
+                Jumbo
+        -----------------------------
+    -->
+    <div class="jumbotron  jumbotron-fluid">
+        <div class="container-search">
+            <form class="form-inline">
+                <label class="my-1 mr-2">City</label>
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                  <option selected>Denver</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <div class="property-type-box">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Home
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Condo
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Apt
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Land
+                        </label>
+                      </div>
+                </div>
+                <div class="price-box">
+                        <label class="my-1 mr-2">Min Price</label>
+                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                        <option selected>100,000</option>
+                        <option value="1">200,000</option>
+                        <option value="2">300,000</option>
+                        <option value="3">400,00</option>
+                        </select>
+
+                        <label class="my-1 mr-2">Max Price</label>
+                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                        <option selected>500,000</option>
+                        <option value="1">600,00</option>
+                        <option value="2">700,000</option>
+                        <option value="3">800,000</option>
+                        </select>
+                </div>
+                <div class="bed-bath-box">
+                    <label class="my-1 mr-2">Bed</label>
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                  <option selected>Any</option>
+                  <option value="1">2</option>
+                  <option value="2">3</option>
+                  <option value="3">4</option>
+                </select>
+
+                <label class="my-1 mr-2">Bath</label>
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                  <option selected>Any</option>
+                  <option value="1">2</option>
+                  <option value="2">3</option>
+                  <option value="3">4</option>
+                </select>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Enter</button>
+            </form>
+        </div>
+      </div>
+      <!--
+          -----------------------------------
+                List of Areas and Cities
+        -------------------------------------
+      -->
+      <div class="areas-cities-container">
+          <div class="areas-cities-title">Cities & Areas</div>
+          <hr>
+        <ul class="list-group list-group-flush box-one">
+            <li class="list-group-item"><div class="cities">Golden</div><span class="badge cities-badge badge-primary badge-pill">14</span></li>
+            <li class="list-group-item"><div class="cities">Louisville</div><span class="badge cities-badge badge-primary badge-pill">14</span></li>
+            <li class="list-group-item"><div class="cities">Highlands Ranch</div><span class="badge cities-badge badge-primary badge-pill">14</span></li>
+            <li class="list-group-item"><div class="cities">Lafayette</div><span class="badge cities-badge cities-badge badge-primary badge-pill">14</span></li>
+            <li class="list-group-item"><div class="cities">Longmont</div><span class="badge cities-badge badge-primary badge-pill">14</span></li>
+        </ul>
+
+        <ul class="list-group list-group-flush box-two">
+            <li class="list-group-item"><div class="cities">Broomfield</div><span class="badge cities-badge badge-primary badge-pill">14</span></li>
+            <li class="list-group-item"><div class="cities">Denver</div><span class="badge cities-badge badge-primary badge-pill">14</span></li>
+            <li class="list-group-item"><div class="cities">Thornton</div><span class="badge cities-badge badge-primary badge-pill">14</span></li>
+            <li class="list-group-item"><div class="cities">Boulder</div><span class="badge cities-badge badge-primary badge-pill">14</span></li>
+            <li class="list-group-item"><div class="cities">Westminster</div><span class="badge cities-badge badge-primary badge-pill">14</span></li>
+        </ul>
+
+
+      </div>
+
+      <!--
+          -----------------------------------------------------
+                    Render Feature Houses
+        -------------------------------------------------------
+      -->
+      <div class="feature-house-container">
+        <div class="feature-house-title">Feature Homes</div>
+        <hr>
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/houseOne.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">Broomfield</small></p>
+            <hr>
+            <h5 class="card-title">$600,700</h5>
+            <p class="card-text">Family: 4 bedroom / 4 bathroom 3400 sqft</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/houseTwo.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">Lafayette</small></p>
+            <hr>
+            <h5 class="card-title">$752,500</h5>
+            <p class="card-text">Family: 6 bedroom / 4 bathroom 4402 sqft</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/houseThree.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">Boulder</small></p>
+            <hr>
+            <h5 class="card-title">$878,400</h5>
+            <p class="card-text">Family: 6 bedroom / 5 bathroom 5452 sqft</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/houseThree.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">Broomfield</small></p>
+            <hr>
+            <h5 class="card-title">$600,700</h5>
+            <p class="card-text">Family: 4 bedroom / 4 bathroom 3400 sqft</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/houseTwo.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">Lafayette</small></p>
+            <hr>
+            <h5 class="card-title">$752,500</h5>
+            <p class="card-text">Family: 6 bedroom / 4 bathroom 4402 sqft</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/houseThree.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">Boulder</small></p>
+            <hr>
+            <h5 class="card-title">$878,400</h5>
+            <p class="card-text">Family: 6 bedroom / 5 bathroom 5452 sqft</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/houseOne.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">Broomfield</small></p>
+            <hr>
+            <h5 class="card-title">$600,700</h5>
+            <p class="card-text">Family: 4 bedroom / 4 bathroom 3400 sqft</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/houseTwo.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">Lafayette</small></p>
+            <hr>
+            <h5 class="card-title">$752,500</h5>
+            <p class="card-text">Family: 6 bedroom / 4 bathroom 4402 sqft</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/houseThree.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">Boulder</small></p>
+            <hr>
+            <h5 class="card-title">$878,400</h5>
+            <p class="card-text">Family: 6 bedroom / 5 bathroom 5452 sqft</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/houseOne.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">Broomfield</small></p>
+            <hr>
+            <h5 class="card-title">$600,700</h5>
+            <p class="card-text">Family: 4 bedroom / 4 bathroom 3400 sqft</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/houseTwo.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">Lafayette</small></p>
+            <hr>
+            <h5 class="card-title">$752,500</h5>
+            <p class="card-text">Family: 6 bedroom / 4 bathroom 4402 sqft</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/houseThree.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">Boulder</small></p>
+            <hr>
+            <h5 class="card-title">$878,400</h5>
+            <p class="card-text">Family: 6 bedroom / 5 bathroom 5452 sqft</p>
+            
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
